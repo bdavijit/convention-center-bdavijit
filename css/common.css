@@ -1,9 +1,14 @@
 /* Nav */
 .bg-nav-color{
-    background-color: #f0860ed0;
+    background-color: #f0860e;
 }
 .bg-nav-menu-color:hover{
     background-color: #f7a02e;
+}
+
+
+.text-dark{
+  color: whitesmoke;
 }
 
 
