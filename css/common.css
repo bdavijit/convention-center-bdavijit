@@ -1,18 +1,16 @@
 /* Nav */
-.bg-nav-color{
-    background-color: #f0860e;
+.bg-nav-color {
+  background-color: #f0860e;
 }
-.bg-nav-menu-color:hover{
-    background-color: #f7a02e;
+.bg-nav-menu-color:hover {
+  background-color: #f7a02e;
 }
 
-
-.text-dark{
+.text-dark {
   color: whitesmoke;
 }
 
-
 /* Carousel */
-.Max-size{
+.Max-size {
   max-height: 644px;
 }
