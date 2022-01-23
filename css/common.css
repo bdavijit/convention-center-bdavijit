@@ -1,3 +1,13 @@
+/* Nav */
+.bg-nav-color{
+    background-color: #f0860ed0;
+}
+.bg-nav-menu-color:hover{
+    background-color: #f7a02e;
+}
+
+
+/* Carousel */
 .Max-size{
   max-height: 644px;
 }
