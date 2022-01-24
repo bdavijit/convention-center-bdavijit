@@ -1,10 +1,10 @@
-.bg-main-color{
+.bg-main-color {
   background-color: #f0860e;
 }
-.main-color{
-  color: #f0860e ;
+.main-color {
+  color: #f0860e;
 }
-.hot-color{
+.hot-color {
   color: #4035e4;
 }
 
@@ -25,6 +25,15 @@
   max-height: 644px;
 }
 
+.front-fize-main {
+  font-size: 4.5rem;
+  line-height: 1;
+
+}
+.front-fize-sub {
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+}
 /* our package */
 .btn-outline-package {
   color: #f0860e;
@@ -50,11 +59,14 @@
   transform: scale(1.05);
 }
 .bg-top-card {
-  transform: scale(1.10);
+  /* transform: scale(1.02); */
   background-color: #f7a02e;
   color: aliceblue;
 }
 
+#package {
+  max-width: 100%;
+}
 .test-bg {
   background-color: green;
 }
