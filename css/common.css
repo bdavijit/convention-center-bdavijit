@@ -28,7 +28,6 @@
 .front-fize-main {
   font-size: 4.5rem;
   line-height: 1;
-
 }
 .front-fize-sub {
   font-size: 1.875rem;
@@ -72,4 +71,11 @@
 }
 .test2-bg {
   background-color: rgb(128, 83, 0);
+}
+
+
+/* Frequently Asked Questions */
+.table-row-color{
+  background-color: #f7a02e;
+  color: rgba(255, 255, 255, 0.781);
 }
