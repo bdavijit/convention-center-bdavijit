@@ -33,6 +33,17 @@
   font-size: 1.875rem;
   line-height: 2.25rem;
 }
+@media (max-width: 800px) {
+  .front-fize-main {
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+  }
+  .front-fize-sub {
+    font-size: 1rem;
+    line-height: 1.5rem;
+  }
+}
+
 /* our package */
 .btn-outline-package {
   color: #f0860e;
