@@ -1,4 +1,5 @@
-.bg-main-color {
+.bg-main-color,
+.bg-nav-color {
   background-color: #f0860e;
 }
 .main-color {
@@ -9,9 +10,7 @@
 }
 
 /* Nav */
-.bg-nav-color {
-  background-color: #f0860e;
-}
+
 .bg-nav-menu-color:hover {
   background-color: #f0860e;
 }
