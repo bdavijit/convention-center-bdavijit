@@ -61,7 +61,7 @@
 .bg-top-card {
   /* transform: scale(1.02); */
   background-color: #f7a02e;
-  color: aliceblue;
+  color: rgba(2, 17, 31, 0.938);
 }
 
 #package {
