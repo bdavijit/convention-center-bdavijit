@@ -1,9 +1,19 @@
+.bg-main-color{
+  background-color: #f0860e;
+}
+.main-color{
+  color: #f0860e ;
+}
+.hot-color{
+  color: #4035e4;
+}
+
 /* Nav */
 .bg-nav-color {
   background-color: #f0860e;
 }
 .bg-nav-menu-color:hover {
-  background-color: #f7a02e;
+  background-color: #f0860e;
 }
 
 .text-dark {
@@ -17,20 +27,31 @@
 
 /* our package */
 .btn-outline-package {
-  color: #f7a02e;
-  border-color: #f7a02e;
+  color: #f0860e;
+  border-color: #f0860e;
+  transition: transform 1s;
 }
-/* .btn-outline-package2 {
-  color: aliceblue;
-} */
 .btn-outline-package:hover {
   color: #fff;
-  background-color: #f7a02e;
-  border-color: #f7a02e;
+  background-color: #f0860e;
+  border-color: #f0860e;
+  transform: scale(1.05);
+}
+.btn-outline-package2 {
+  color: #4035e4;
+  /* border: 3px solid; */
+  border-color: #4035e4;
+  transition: transform 1s;
+}
+.btn-outline-package2:hover {
+  color: #fff;
+  background-color: #4035e4;
+  border-color: #e6425d00;
+  transform: scale(1.05);
 }
 .bg-top-card {
-  background-color: #1e06fad2;
-  /* #FF4331 #D31A50 */
+  transform: scale(1.10);
+  background-color: #f7a02e;
   color: aliceblue;
 }
 
