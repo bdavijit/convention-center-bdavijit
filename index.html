@@ -115,6 +115,12 @@
                 <p class="front-fize-sub">
                   10,000 square feet space 4000 guest capacity
                 </p>
+
+                <a
+                  class="btn btn-outline-package ps-3 pe-3 text-white"
+                  href="#package"
+                  >Book Now</a
+                >
               </div>
             </div>
             <div class="carousel-item Max-size">
@@ -128,6 +134,11 @@
                 <p class="front-fize-sub">
                   5,000 square feet space 500 guest capacity
                 </p>
+                <a
+                  class="btn btn-outline-package ps-3 pe-3 text-white"
+                  href="#package"
+                  >Book Now</a
+                >
               </div>
             </div>
             <div class="carousel-item Max-size">
@@ -141,6 +152,11 @@
                 <p class="front-fize-sub">
                   Decoration with your preference flowers
                 </p>
+                <a
+                  class="btn btn-outline-package ps-3 pe-3 text-white"
+                  href="#package"
+                  >Book Now</a
+                >
               </div>
             </div>
           </div>
@@ -167,9 +183,11 @@
 
       <div id="package"></div>
       <br />
+
       <section id="">
         <div class="container-fluid">
-          <h1 class="text-center mt-5 mb-lg-3 main-color">Our package</h1>
+          <!-- Our Packages -->
+          <h1 class="text-center mt-5 mb-lg-3 main-color">Our Packages</h1>
           <div
             class="row gap-4 d-flex justify-content-center align-items-center"
           >
@@ -249,9 +267,38 @@
         </div>
       </section>
 
-      <div id="quis"></div>
+      <!-- alart -->
+      <div
+        class="alert bg-main-color text-black mt-2 alert-dismissible fade show col-lg-3 col-md-5  col-sm-6 ms-auto"
+        role="alert"
+      >
+        <strong class="hot-color">20% off</strong> on Working Day!!!!!
+        <button
+          type="button"
+          class="btn-close"
+          data-bs-dismiss="alert"
+          aria-label="Close"
+        ></button>
+      </div>
+
+      <div id="map"></div>
       <br />
       <section id="">
+        <h1 class="text-center mt-5 main-color mb-lg-5">Our Location</h1>
+        <iframe
+          class="container d-flex justify-content-center w-100"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3651.2867607183375!2d90.41399791498178!3d23.77280078457838!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755c76934945adb%3A0x40d241f97b7d7b22!2sDhaka%20International%20Convention%20Center%20(DICC)!5e0!3m2!1sen!2sbd!4v1642965982926!5m2!1sen!2sbd"
+          width="600"
+          height="450"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+        ></iframe>
+      </section>
+
+      <div id="quis"></div>
+      <br />
+      <section class="mb-5">
         <h1 class="text-center mt-5 mb-lg-5 main-color">
           Frequently Asked Questions
         </h1>
@@ -315,9 +362,7 @@
                             <th scope="col">SL No</th>
                             <th scope="col">Particulars</th>
                             <th scope="col">Change date charge</th>
-                            <th scope="col">
-                              Cancelation charge
-                            </th>
+                            <th scope="col">Cancelation charge</th>
                           </tr>
                         </thead>
                         <tbody>
@@ -383,21 +428,6 @@
           </div>
         </div>
       </section>
-
-      <div id="map"></div>
-      <br />
-      <section id="">
-        <h1 class="text-center mt-5 main-color mb-lg-5">Our Location</h1>
-        <iframe
-          class="container d-flex justify-content-center w-100"
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3651.2867607183375!2d90.41399791498178!3d23.77280078457838!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755c76934945adb%3A0x40d241f97b7d7b22!2sDhaka%20International%20Convention%20Center%20(DICC)!5e0!3m2!1sen!2sbd!4v1642965982926!5m2!1sen!2sbd"
-          width="600"
-          height="450"
-          style="border: 0"
-          allowfullscreen=""
-          loading="lazy"
-        ></iframe>
-      </section>
     </main>
 
     <footer id="footer">
@@ -457,10 +487,16 @@
                 <i class="fas fa-caret-down"></i>
               </a>
               <div class="dropdown-content">
-                <a href="https://play.google.com/store/apps/details?id=com.flipkart.android" target="_blank">
+                <a
+                  href="https://play.google.com/store/apps/details?id=com.flipkart.android"
+                  target="_blank"
+                >
                   <img src="icons/google.png" width="150" height="80" />
                 </a>
-                <a href="https://apps.apple.com/in/app/flipkart/id742044692" target="_blank">
+                <a
+                  href="https://apps.apple.com/in/app/flipkart/id742044692"
+                  target="_blank"
+                >
                   <img src="icons/apple.png" width="170" height="80" />
                 </a>
               </div>
@@ -485,5 +521,11 @@
       integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
       crossorigin="anonymous"
     ></script>
+    <script>
+      var alertList = document.querySelectorAll(".alert");
+      alertList.forEach(function (alert) {
+        new bootstrap.Alert(alert);
+      });
+    </script>
   </body>
 </html>
