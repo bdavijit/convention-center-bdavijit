@@ -15,11 +15,28 @@
   max-height: 644px;
 }
 
+/* our package */
+.btn-outline-package {
+  color: #f7a02e;
+  border-color: #f7a02e;
+}
+/* .btn-outline-package2 {
+  color: aliceblue;
+} */
+.btn-outline-package:hover {
+  color: #fff;
+  background-color: #f7a02e;
+  border-color: #f7a02e;
+}
+.bg-top-card {
+  background-color: #1e06fad2;
+  /* #FF4331 #D31A50 */
+  color: aliceblue;
+}
 
-
-.test-bg{
+.test-bg {
   background-color: green;
 }
-.test2-bg{
+.test2-bg {
   background-color: rgb(128, 83, 0);
 }
