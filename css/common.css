@@ -58,7 +58,6 @@
   transform: scale(1.05);
 }
 .bg-top-card {
-  /* transform: scale(1.02); */
   background-color: #f7a02e;
   color: rgba(2, 17, 31, 0.938);
 }
@@ -66,16 +65,10 @@
 #package {
   max-width: 100%;
 }
-.test-bg {
-  background-color: green;
-}
-.test2-bg {
-  background-color: rgb(128, 83, 0);
-}
 
 
 /* Frequently Asked Questions */
-.table-row-color{
+.table-row-color {
   background-color: #f7a02e;
   color: rgba(255, 255, 255, 0.781);
 }
