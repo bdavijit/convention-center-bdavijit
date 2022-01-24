@@ -32,6 +32,9 @@
   font-size: 1.875rem;
   line-height: 2.25rem;
 }
+.margin-Carousel {
+  margin-top: 0.5rem;
+}
 @media (max-width: 800px) {
   .front-fize-main {
     font-size: 1.25rem;
@@ -41,12 +44,19 @@
     font-size: 1rem;
     line-height: 1.5rem;
   }
-  
 }
 @media (max-width: 400px) {
-  .table-font{
+  .table-font {
     font-size: 0.8rem;
     line-height: 1rem;
+  }
+  .front-fize-main {
+    font-size: 1rem;
+    line-height: 1.5rem;
+  }
+  .front-fize-sub {
+    font-size: 0.75rem;
+    line-height: 1.25rem;
   }
 }
 
@@ -88,5 +98,3 @@
   background-color: #f7a02e;
   color: rgba(255, 255, 255, 0.781);
 }
-
-
