@@ -58,14 +58,13 @@
   transform: scale(1.05);
 }
 .bg-top-card {
-  background-color: #f7a02e;
+  background-color: #f0860e;
   color: rgba(2, 17, 31, 0.938);
 }
 
 #package {
   max-width: 100%;
 }
-
 
 /* Frequently Asked Questions */
 .table-row-color {
